@@ -16,4 +16,11 @@ export class MenuComponent implements OnInit {
   ngOnInit() {
   }
 
+  decrement() {
+    this.dish.price--;
+  }
+
+  increment() {
+    this.dish.price++;
+  }
 }
