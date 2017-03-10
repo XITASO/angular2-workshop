@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Dish} from './dish';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  dish: Dish = {
+    id: 1,
+    name: 'Pizza Margherita',
+    price: 8
+  };
 }
